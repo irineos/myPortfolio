@@ -1,0 +1,61 @@
+.about-text {
+  color: black;
+}
+
+.separator-padding-main {
+  padding-left: 16px !important;
+}
+.timeline-dot-main {
+  background-color: rgb(17, 127, 252) !important;
+}
+
+.resume-timeline .job-content {
+  padding-top: 3px;
+}
+.resume-timeline .job-content .job-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.resume-timeline .job-content .job-date {
+  color: darkslategray;
+}
+
+.resume-timeline .job-content .job-description {
+  color: grey;
+  font-size: small;
+  margin-top: 6px;
+}
+.p-10 {
+  padding: 4px !important;
+}
+
+.skill {
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 160px;
+  height: 100%;
+}
+
+.skill .skill-title {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.skill .skill-description {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-weight: 400 !important;
+  line-height: 12px !important;
+}
+
+.skill .skill-description .skill-dot {
+  border-color: rgb(17, 127, 252);
+  padding: 2px !important;
+  margin-right: 5px !important;
+}

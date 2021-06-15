@@ -1,0 +1,19 @@
+.footer {
+  background-color: rgba(26, 25, 25);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  border-radius: 8px;
+  padding: 15px 25px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer .footer-copyrights {
+  font-size: small;
+  text-align: end;
+  color: white;
+}

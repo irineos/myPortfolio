@@ -1,0 +1,49 @@
+.navbar {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0 25px 0 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 90px 0px rgb(63, 63, 63);
+}
+
+.navbar .header-link-active {
+  font-weight: 500;
+  color: rgb(17, 127, 252) !important;
+}
+.navbar .header-navlink {
+  margin: 3px;
+  padding: 0px;
+}
+
+.navbar .header-link:hover {
+  color: rgb(17, 127, 252) !important;
+}
+
+.navbar .header-link {
+  font-weight: 500;
+  color: black !important;
+}
+
+.navbar .nav-home {
+  background-color: rgb(17, 127, 252);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-left {
+  margin-right: auto;
+}
+
+.navbar .navbar-right > a > .MuiSvgIcon-root {
+  margin-right: 10px;
+  color: black;
+}
